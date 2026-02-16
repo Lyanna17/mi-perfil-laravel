@@ -1,59 +1,243 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="public/images/IMG_3980.jpeg" width="150">
 </p>
 
-## About Laravel
+# 🌟 Portafolio Personal - Abigail Vargas Argüello
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Portafolio web personal desarrollado con Laravel Blade y CSS personalizado, presentando información profesional, habilidades técnicas, intereses y objetivos de carrera.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 📋 Descripción
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Este proyecto es un portafolio web que muestra mi perfil profesional como estudiante de Ingeniería en Sistemas con especialización en ciberseguridad. El sitio incluye información sobre mi formación, habilidades técnicas y creativas, intereses personales y metas profesionales.
 
-## Learning Laravel
+## ✨ Características
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+- **Diseño Responsive**: Adaptable a dispositivos móviles, tablets y escritorio
+- **CSS Personalizado**: Sin frameworks externos como Bootstrap
+- **Navegación Intuitiva**: Menú funcional entre las diferentes secciones
+- **Paleta de Colores Moderna**: Combinación profesional de púrpura, rosa y verde
+- **Animaciones Suaves**: Transiciones y efectos hover elegantes
+- **Organización Clara**: Información estructurada en 4 vistas principales
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 🗂️ Estructura del Proyecto
 
-## Laravel Sponsors
+```
+portafolio-personal/
+│
+├── resources/
+│   └── views/
+│       ├── perfil.blade.php        # Información personal
+│       ├── intereses.blade.php     # Pasatiempos y gustos
+│       ├── habilidades.blade.php   # Skills técnicas y creativas
+│       └── metas.blade.php         # Objetivos profesionales
+│
+├── public/
+│   └── css/
+│       └── estilos.css             # Estilos personalizados
+│
+└── README.md
+```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 📄 Secciones del Portafolio
 
-### Premium Partners
+### 1. 📋 Perfil (perfil.blade.php)
+Información personal básica:
+- Nombre completo
+- Edad
+- Ocupación actual
+- Presentación personal
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+### 2. 💡 Intereses (intereses.blade.php)
+Mis principales pasatiempos:
+- 🔒 **Ciberseguridad**: Análisis forense y protección de sistemas
+- 🎮 **Videojuegos**: Desarrollo y análisis de mecánicas
+- 🎨 **Arte**: Dibujo digital y tradicional
+- 🎵 **Música**: Producción musical y composición
 
-## Contributing
+### 3. 🚀 Habilidades (habilidades.blade.php)
+Skills organizadas por categorías:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+**Lenguajes de Programación:**
+- C# (Avanzado)
+- Python (Avanzado)
+- Kotlin (Intermedio)
 
-## Code of Conduct
+**Herramientas:**
+- Unity (Desarrollo de videojuegos)
+- FL Studio (Producción musical)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+**Habilidades Creativas:**
+- Dibujo
+- Escritura
 
-## Security Vulnerabilities
+### 4. 🎯 Metas (metas.blade.php)
+Objetivos profesionales:
+- **Meta Principal**: Trabajar en informática forense para una entidad pública
+- **Meta Personal**: Formar una banda musical
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## 🎨 Características de Diseño
 
-## License
+### Paleta de Colores
+```css
+--color-primario: #6366f1      /* Púrpura índigo */
+--color-secundario: #ec4899    /* Rosa */
+--color-acento: #10b981        /* Verde esmeralda */
+--color-fondo: #f8fafc         /* Gris claro */
+--color-texto: #1e293b         /* Gris oscuro */
+```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Elementos Visuales
+- Barras de progreso animadas
+- Tarjetas con efecto hover
+- Gradientes suaves
+- Sombras sutiles
+- Iconos emoji para mejor comprensión visual
+
+## 🛠️ Tecnologías Utilizadas
+
+- **Laravel Blade**: Motor de plantillas
+- **CSS3**: Estilos personalizados
+- **HTML5**: Estructura semántica
+- **Flexbox & Grid**: Sistema de diseño responsive
+
+## 📦 Instalación
+
+### Requisitos Previos
+- PHP >= 7.4
+- Composer
+- Laravel >= 8.x
+
+### Pasos de Instalación
+
+1. **Clonar el repositorio**
+```bash
+git clone https://github.com/tu-usuario/portafolio-personal.git
+cd portafolio-personal
+```
+
+2. **Instalar dependencias**
+```bash
+composer install
+```
+
+3. **Copiar archivo de entorno**
+```bash
+cp .env.example .env
+```
+
+4. **Generar clave de aplicación**
+```bash
+php artisan key:generate
+```
+
+5. **Copiar archivos al proyecto**
+   - Coloca los archivos `.blade.php` en `resources/views/`
+   - Coloca `estilos.css` en `public/css/`
+
+6. **Iniciar servidor de desarrollo**
+```bash
+php artisan serve
+```
+
+7. **Acceder a la aplicación**
+```
+http://localhost:8000
+```
+
+## 🚀 Configuración de Rutas
+
+Agrega las siguientes rutas en `routes/web.php`:
+
+```php
+Route::get('/', function () {
+    return view('perfil');
+});
+
+Route::get('/perfil', function () {
+    return view('perfil');
+})->name('perfil');
+
+Route::get('/intereses', function () {
+    return view('intereses');
+})->name('intereses');
+
+Route::get('/habilidades', function () {
+    return view('habilidades');
+})->name('habilidades');
+
+Route::get('/metas', function () {
+    return view('metas');
+})->name('metas');
+```
+
+## 📱 Responsive Design
+
+El sitio está optimizado para:
+- 📱 **Móviles**: < 480px
+- 📱 **Tablets**: 481px - 768px
+- 💻 **Desktop**: > 768px
+
+## 🎯 Características CSS
+
+### Sistema de Grid
+```css
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 1.5rem;
+```
+
+### Efectos de Transición
+```css
+transition: all 0.3s ease;
+```
+
+### Barras de Progreso Animadas
+Las barras de habilidades se animan al cargar la página, mostrando visualmente el nivel de competencia en cada skill.
+
+## 🔧 Personalización
+
+### Cambiar Colores
+Edita las variables CSS en `estilos.css`:
+```css
+:root {
+    --color-primario: #tu-color;
+    --color-secundario: #tu-color;
+    --color-acento: #tu-color;
+}
+```
+
+### Modificar Contenido
+Edita directamente los archivos `.blade.php` en `resources/views/`
+
+## 📈 Mejoras Futuras
+
+- [ ] Agregar modo oscuro
+- [ ] Implementar sistema de contacto
+- [ ] Añadir galería de proyectos
+- [ ] Integrar blog personal
+- [ ] Agregar sección de certificaciones
+- [ ] Implementar multiidioma (ES/EN)
+- [ ] Añadir formulario de contacto funcional
+- [ ] Integrar animaciones más complejas con JavaScript
+
+
+## 👤 Autor
+
+**Abigail Vargas Argüello**
+
+- Estudiante de Ingeniería en Sistemas
+- Especialización en Ciberseguridad
+- Intereses: Informática Forense, Desarrollo de Software, Arte y Música
+
+## 📧 Contacto
+
+¿Preguntas o sugerencias? No dudes en contactarme:
+
+- 📧 Email: abivargasargu17@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/abigail-vargas-argüello-a6224236b/
+- 🐙 GitHub: https://github.com/Lyanna17
+
+
+⭐ Si este proyecto te resulta útil, no olvides darle una estrella en GitHub!
+
+**Desarrollado con ❤️ y ☕ por Abigail Vargas Argüello**
