@@ -21,7 +21,7 @@
 
     <main class="contenedor">
         <section class="seccion">
-            <h2 class="seccion-titulo">💡 Pasatiempos y Gustos</h2>
+            <h2 class="seccion-titulo"> Pasatiempos y Gustos</h2>
             
             <div class="grid-intereses">
                 <div class="tarjeta-interes">
@@ -68,7 +68,7 @@
     </main>
 
     <footer class="pie-pagina">
-        <p>&copy; 2024 Abigail Vargas Argüello - Portafolio Personal</p>
+        <p>&copy; 2026 Abigail Vargas Argüello - Portafolio Personal</p>
     </footer>
 </body>
 </html>
