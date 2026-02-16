@@ -11,10 +11,10 @@
         <div class="nav-container">
             <h1 class="nav-titulo">Abigail Vargas Argüello</h1>
             <ul class="nav-menu">
-                <li><a href="perfil.blade.php" class="nav-link">Perfil</a></li>
-                <li><a href="intereses.blade.php" class="nav-link">Intereses</a></li>
-                <li><a href="habilidades.blade.php" class="nav-link">Habilidades</a></li>
-                <li><a href="metas.blade.php" class="nav-link activo">Metas</a></li>
+                <li><a href="{{ url('/perfil') }}" class="nav-link">Perfil</a></li>
+                <li><a href="{{ url('/perfil/intereses') }}" class="nav-link">Intereses</a></li>
+                <li><a href="{{ url('/perfil/habilidades') }}" class="nav-link">Habilidades</a></li>
+                <li><a href="{{ url('/perfil/metas') }}" class="nav-link">Metas</a></li>
             </ul>
         </div>
     </nav>
